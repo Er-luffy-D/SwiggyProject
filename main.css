@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 8rem;
+}
+.nav-items{
+    padding: 0 15px;
+}
+.nav-items >ul{
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+}
+.nav-items > ul >li{
+    padding: 1rem;
+}
+.search{
+    padding:1rem;
+}
+.res-card{
+    padding: 5px;
+    width: 220px;
+    margin:5px;
+    transition: 2s all;
+}
+.res-card:hover{
+    cursor: pointer;
+    border:1px solid black; 
+}
+.res-logo{
+width: 100%;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
