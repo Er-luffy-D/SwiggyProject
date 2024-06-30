@@ -40,6 +40,12 @@ max-height:220px;
 }
 .filter{
     margin: 15px 0px;
+    display: flex;
+}
+.filter-btn{
+    padding: 0px 10px;
+    margin: 15px;
+    cursor: pointer;
 }
 
 .shimmer-card{
@@ -51,4 +57,8 @@ max-height:220px;
 .shimmer-container{
     display: flex;
     flex-wrap: wrap;
+}
+.login{
+    padding: 0px 20px;
+    cursor: pointer;
 }

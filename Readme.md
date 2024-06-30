@@ -22,3 +22,5 @@
 - Best Practice LOAD -> RENDER -> API/Functions -> RENDER
 
 - Use shimmer ui (fake cards when data is not fetched for render)
+
+- Whenever a state variable update , react triggers a reconciliation cycle (re-renders the component)
