@@ -24,3 +24,10 @@
 - Use shimmer ui (fake cards when data is not fetched for render)
 
 - Whenever a state variable update , react triggers a reconciliation cycle (re-renders the component)
+
+- Always call your useState inside function component.  
+
+# Types of Routing in web apps 
+ - Client side routing - Link in react router dom help us to acheive that ( It is just a single page only the components of website changing)
+ 
+ - Server side routing
