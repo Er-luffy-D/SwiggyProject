@@ -90,18 +90,21 @@ const Body = () => {
 
         <div className="search">
 
+            <form onSubmit={(e)=>{
+              e.preventDefault();
+              let filterList=ListofRestaurant.filter(
+                (res)=>res.info.name.toLowerCase().includes(SearchText.toLowerCase()));
+                
+                setFilterRestaurant(filterList);
+              }}>    
             <input type="text" className="search-box" value={SearchText} onChange={
-                (e)=>{
-                    setSearchText(e.target.value);
-                }
+              (e)=>{
+                setSearchText(e.target.value);
+              }
             } />
 
-            <button onClick={()=>{
-                let filterList=ListofRestaurant.filter(
-                    (res)=>res.info.name.toLowerCase().includes(SearchText.toLowerCase()));
-
-                setFilterRestaurant(filterList);
-            }}>Search</button>
+            <button>Search</button>
+              </form>
 
         </div>
 
