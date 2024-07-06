@@ -1,6 +1,7 @@
 export const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"
 export const LOGO_URL = "https://cdn.dribbble.com/users/280206/screenshots/1622902/media/31c780a718aaa268f842f74c4f64ad3e.jpg?resize=400x0"
 
+export const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.66500&lng=77.44770&restaurantId="
 
 // THERE ARE 2 TYPES OF EXPORT - 1 DEFAULT (1 FOR A FILE ) 2- NAMED EXPORT (MULTIPLE)
 
